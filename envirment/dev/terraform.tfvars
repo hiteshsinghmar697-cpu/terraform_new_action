@@ -11,4 +11,10 @@ vnet = {
     resource_group_name = "rg-dev"
     address_space       = ["10.0.0.0/16"]
   }
+  vnet2 = {
+    name                = "vnet-dev-1"
+    location            = "south india"
+    resource_group_name = "rg-dev"
+    address_space       = ["10.0.0.0/16"]
+  }
 }
